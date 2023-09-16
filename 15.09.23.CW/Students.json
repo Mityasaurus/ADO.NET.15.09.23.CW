@@ -1,0 +1,52 @@
+{
+  "Students": [
+    {
+      "Name": "Ivan",
+      "LastName": "Sokolov",
+      "DateOfBirth": "2000-01-15",
+      "Mail": "ivan@example.com",
+      "Phone": "+380991234567",
+      "StudentCard": {
+        "CardNumber" : "HWL-22121",
+        "StartDate": "2023-09-15",
+        "IsActive": true
+      }
+    },
+    {
+      "Name": "Anna",
+      "LastName": "Petrova",
+      "DateOfBirth": "1998-05-20",
+      "Mail": "anna@example.com",
+      "Phone": "+380981234567",
+      "StudentCard": {
+        "CardNumber": "JUP-2089",
+        "StartDate": "2023-01-15",
+        "IsActive": true
+      }
+    },
+    {
+      "Name": "Oleg",
+      "LastName": "Trynko",
+      "DateOfBirth": "2002-03-10",
+      "Mail": "oleg@example.com",
+      "Phone": "+380971234567",
+      "StudentCard": {
+        "CardNumber": "OAQ-21142",
+        "StartDate": "2023-02-20",
+        "IsActive": true
+      }
+    },
+    {
+      "Name": "Olena",
+      "LastName": "Kozlova",
+      "DateOfBirth": "1999-09-05",
+      "Mail": "olena@example.com",
+      "Phone": "+380961234567",
+      "StudentCard": {
+        "CardNumber": "SRB-22170",
+        "StartDate": "2023-03-10",
+        "IsActive": true
+      }
+    }
+  ]
+}

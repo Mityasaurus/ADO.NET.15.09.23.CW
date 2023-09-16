@@ -6,7 +6,7 @@ namespace _15._09._23.CW.DAL.Entity
     public class Student
     {
         [Key]
-        public string ID { get; set; }
+        public int ID { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

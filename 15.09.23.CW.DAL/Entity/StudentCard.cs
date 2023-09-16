@@ -6,7 +6,9 @@ namespace _15._09._23.CW.DAL.Entity
     public class StudentCard
     {
         [Key]
-        public string ID { get; set; }
+        public int ID { get; set; }
+        [Required]
+        public string CardNumber { get; set; }
         [Required]
         public DateTime StartDate { get; set; }
         [Required]
