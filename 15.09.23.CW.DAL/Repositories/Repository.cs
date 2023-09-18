@@ -35,5 +35,12 @@ namespace _15._09._23.CW.DAL.Repositories
             _dbSet.Remove(entity);
             _context.SaveChanges();
         }
+
+        public void Update(int id, T entity)
+        {
+            T existingEntity = _dbSet.Find(id);
+            _context.Entry(existingEntity).CurrentValues.SetValues(entity);
+            _context.SaveChanges();
+        }
     }
 }

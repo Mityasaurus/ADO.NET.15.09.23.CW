@@ -15,5 +15,7 @@ namespace _15._09._23.CW.DAL.Repositories
         IEnumerable<T> GetAll();
 
         T Get(int id);
+
+        void Update(int id, T Entity);
     }
 }
